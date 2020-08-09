@@ -19,7 +19,6 @@
     "styled-components": "^5.1.1",
     "yarn": "^1.22.4"
   },
-  "homepage": "https://github.com/amkhurana/firstreact",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
