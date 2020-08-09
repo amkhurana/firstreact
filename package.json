@@ -6,13 +6,23 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^9.1.2",
     "bootstrap": "^4.5.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1",
+    "yarn": "^1.22.4"
   },
+  "homepage": "https://github.com/amkhurana/firstreact",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,16 +31,20 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "react-scripts": "^2.1.0"
+  },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
     ]
   }
 }
