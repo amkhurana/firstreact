@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage" : "https://amkhurana.github.io/firstreact",
+  "homepage" : "https://amkhurana.github.io/firstreact1/",
   "eslintConfig": {
     "extends": "react-app"
   },
